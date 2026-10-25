@@ -1,0 +1,26 @@
+{
+  "name": "ppv-st-addon",
+  "version": "0.1.0",
+  "description": "Stremio addon for ppv.st live sports",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
